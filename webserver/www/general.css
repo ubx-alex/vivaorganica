@@ -1,0 +1,224 @@
+p.cero
+{
+border-style:solid;
+border-color:#98bf21;
+} 
+
+p.one
+{
+border-style:solid;
+border-color:#98bf21;
+} 
+
+h1 {
+	font-family:"Times New Roman";
+	font-size: 20pt;
+	text-align:center;
+}
+
+h3 {
+	font-family: 'Helvetica';
+	font-size: 50pt;
+}
+#pressure
+{
+	background-image: url("bloodpressure.png");
+	background-repeat: none;
+	position:absolute;
+	left:200px;
+	top:110px;
+	width: 309px;
+	height: 283px;
+	
+	
+}
+
+#pressureDiastolic
+{
+	font-family: 'Helvetica';
+	font-size: 50pt;
+	position:absolute;
+	left:330px;
+	top:175px;
+	width: 309px;
+	height: 283px;
+
+
+}
+
+#pressureSystolic
+{
+	font-family: 'Helvetica';
+	font-size: 50pt;
+	position:absolute;
+	left:292px;
+	top:235px;
+	width: 309px;
+	height: 283px;
+
+
+}
+
+#pressurePulse
+{
+	font-family: 'Helvetica';
+	font-size: 35pt;
+	position:absolute;
+	left:300px;
+	top:315px;
+	width: 309px;
+	height: 283px;
+
+
+}
+
+#weight
+{
+	background-image: url("weightscale.png");
+	background-repeat: none;
+	position:absolute;
+	left:900px;
+	top:110px;
+	width: 309px;
+	height: 283px;
+}
+
+#weightLb
+{
+	
+	background-repeat: none;
+	position:absolute;
+	left:910px;
+	top:190px;
+	width: 309px;
+	height: 283px;
+}
+#weightKg
+{
+	
+	background-repeat: none;
+	position:absolute;
+	left:1060px;
+	top:190px;
+	width: 309px;
+	height: 283px;
+}
+
+#motion
+{
+	background-image: url("motionsensor.png");
+	background-repeat: none;
+	position:absolute;
+	left:200px;
+	top:450px;
+	width: 309px;
+	height: 283px;
+	
+	
+}
+
+#sensorMotion
+{
+	background-image: url("motionoff.png");
+	background-repeat: none;
+	position:absolute;
+	left:255px;
+	top:520px;
+	width: 309px;
+	height: 283px;
+	width: 200px;
+	height: 200px;
+}
+#sensorMotion.on
+{
+	background-image: url("motionon.png");
+}
+
+#fall
+{
+	background-image: url("fallsensor.png");
+	background-repeat: none;
+	position:absolute;
+	left:900px;
+	top:450px;
+	width: 309px;
+	height: 283px;
+	
+	
+}
+
+
+
+
+#sensorFall
+{
+	background-image: url("fallon.png");
+	background-repeat: none;
+	position:absolute;
+	left:960px;
+	top:520px;
+	width: 200px;
+	height: 200px;
+}
+
+
+#sensorFall.alert
+{
+	background-image: url("alert.png");
+	position:absolute;
+	left:960px;
+	top:520px;
+	width: 200px;
+	height: 200px;
+}
+
+/* button */
+
+#button
+{
+	position:absolute;
+	left:600px;
+	top:370px;
+}
+.button {
+    left:960px;
+	top:520px;
+    display: inline-block;
+    zoom: 2;
+    *display: inline;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-decoration: none;
+    font: 12px Arial;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover { text-decoration: none; }
+
+
+
+.circ {
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+ 
+
+
+.black {
+    color: #d7d7d7;
+    border: solid 1px #333;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.black:hover {
+    background: #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+    background: -moz-linear-gradient(top,  #444,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}

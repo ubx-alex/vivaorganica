@@ -1,0 +1,147 @@
+body
+{
+background-color:#ffffff;
+
+background-image: -moz-linear-gradient(bottom right, #ffffff, #ffffff 100.0%);
+
+background-image: -webkit-linear-gradient(bottom right, #ffffff, #ffffff 100.0%);
+
+background-image: -o-linear-gradient(bottom right, #ffffff, #ffffff 100.0%);
+
+background-image: -ms-linear-gradient(bottom right, #ffffff, #ffffff 100.0%);
+
+background-image: linear-gradient(bottom right, #ffffff, #ffffff 100.0%)
+}
+
+
+
+#logoVivaOrganica
+{
+	background-image: url("vivaorganica.png");
+	background-repeat: none;
+	position:absolute;
+	left:80px;
+	top:10px;
+	width: 203px;
+	height: 130px;
+	
+	
+}
+#logoUabc
+{
+	background-image: url("escudo_uabc.png");
+	background-repeat: none;
+	position:absolute;
+	left:1040px;
+	top:10px;
+	width: 100px;
+	height: 144px;
+	
+	
+}
+#cuadroFondo
+{
+	background-image: url("cuadroFondo.png");
+	background-repeat: none;
+	position:absolute;
+	left:120px;
+	top:210px;
+	width: 1000px;
+	height: 333px;
+}	
+
+#valoresActuales
+{
+	background-image: url("valoresActuales.png");
+	background-repeat: none;
+	position:absolute;
+	left:230px;
+	top:350px;
+	width: 200px;
+	height: 50px;
+}	
+
+#valoresHistoricos
+{
+	background-image: url("valoresHistoricos.png");
+	background-repeat: none;
+	position:absolute;
+	left:530px;
+	top:350px;
+	width: 200px;
+	height: 50px;
+}	
+
+
+#administrador
+{
+	background-image: url("administrador.png");
+	background-repeat: none;
+	position:absolute;
+	left:830px;
+	top:350px;
+	width: 200px;
+	height: 50px;
+}	
+
+#contacto
+{
+	background-image: url("contacto.png");
+	background-repeat: none;
+	position:absolute;
+	left:80px;
+	top:570px;
+	width: 200px;
+	height: 50px;
+}	
+
+#ayuda
+{
+	background-image: url("ayuda.png");
+	background-repeat: none;
+	position:absolute;
+	left:80px;
+	top:630px;
+	width: 200px;
+	height: 50px;
+}	
+
+div.ex
+{
+width:600px;
+padding:10px;
+border:5px solid gray;
+margin:0px;
+position:absolute;
+	left:350px;
+	top:210px;
+	
+}
+
+	
+h1 {
+	font-family:"Times New Roman";
+	font-size: 20pt;
+	text-align:center;
+	position:absolute;
+	left:290px;
+	top:30px;
+}
+
+h2 {
+	font-family:"Times New Roman";
+	font-size: 20pt;
+	text-align:center;
+	position:absolute;
+	left:590px;
+	top:55px;
+}
+
+h6 {
+	font-family:"Times New Roman";
+	font-size: 10pt;
+	text-align:center;
+	position:absolute;
+	left:100px;
+	top:55px;
+}
