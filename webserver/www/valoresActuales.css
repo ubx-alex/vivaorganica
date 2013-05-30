@@ -175,6 +175,40 @@ h1 {
 	left:290px;
 	top:30px;
 }
+#fechaNodo1
+{
+	font-family: 'Helvetica';
+	font-size: 10;
+	position:absolute;
+	left:330px;
+	top:175px;
+	width: 309px;
+	height: 283px;
+}
+
+#adc1Nodo1
+{
+	font-family: 'Helvetica';
+	font-size: 10pt;
+	position:absolute;
+	left:800px;
+	top:175px;
+	width: 309px;
+	height: 283px;
+}
+
+#adc2Nodo1
+{
+	font-family: 'Helvetica';
+	font-size: 10pt;
+	position:absolute;
+	left:1000px;
+	top:175px;
+	width: 309px;
+	height: 283px;
+
+
+}
 
 h2 {
 	font-family:"Times New Roman";
