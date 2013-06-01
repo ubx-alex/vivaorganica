@@ -6,7 +6,7 @@
 
 
 $username="root";
-$password="";
+$password="vivaorganica";
 $database="test";
 
 mysql_connect('localhost',$username,$password);

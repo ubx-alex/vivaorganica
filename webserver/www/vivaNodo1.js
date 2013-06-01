@@ -10,17 +10,18 @@ function load()
 			var adc2 = valoresActuales.adc2 * 1;
 			
 			//humedad relativa
-			adc1Voltage = (adc1 * 0.0011730205278592) * 4.35;
+			var adc1Voltage = (adc1 * 0.0011730205278592) * 4.35;
 
-			adc1=((0.0391*adc1Voltage)*1000)-42.5;
-
+			var hr=((0.0391*adc1Voltage)*1000)-42.5;
+			hr = parseInt(hr);
 			//temperatura
 
-			adc2  = (adc2 * 0.0011730205278592) * 100;
+			var temp  = (adc2 * 0.0011730205278592) * 100;
+			temp  = parseInt(temp)
 		
 		document.getElementById("fechaNodo1").innerHTML = fecha; 
-		document.getElementById("adc1Nodo1").innerHTML = adc1; 
-		document.getElementById("adc2Nodo1").innerHTML = adc2; 
+		document.getElementById("adc1Nodo1").innerHTML = hr; 
+		document.getElementById("adc2Nodo1").innerHTML = temp; 
 		
 		
 		setTimeout(load, 5000);

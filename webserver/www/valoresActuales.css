@@ -74,98 +74,7 @@ background-image: linear-gradient(bottom right, #ffffff, #ffffff 100.0%)
 	
 	
 }
-#temp1231
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:310px;
-	top:230px;
-	width: 150px;
-	height: 150px;
-}
-#temp1232
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:310px;
-	top:430px;
-	width: 150px;
-	height: 150px;
-}
-#temp1233
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:310px;
-	top:630px;
-	width: 150px;
-	height: 150px;
-}
 
-#luz1231
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:610px;
-	top:230px;
-	width: 150px;
-	height: 150px;
-}
-#luz1232
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:610px;
-	top:430px;
-	width: 150px;
-	height: 150px;
-}
-#luz1233
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:610px;
-	top:630px;
-	width: 150px;
-	height: 150px;
-}
-
-#humedad1231
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:910px;
-	top:230px;
-	width: 150px;
-	height: 150px;
-}
-#humedad1232
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:910px;
-	top:430px;
-	width: 150px;
-	height: 150px;
-}
-#humedad1233
-{
-	
-	background-repeat: none;
-	position:absolute;
-	left:910px;
-	top:630px;
-	width: 150px;
-	height: 150px;
-}
 	
 h1 {
 	font-family:"Times New Roman";
@@ -178,37 +87,17 @@ h1 {
 #fechaNodo1
 {
 	font-family: 'Helvetica';
-	font-size: 10;
+	font-size: 7;
 	position:absolute;
-	left:330px;
-	top:175px;
+	left:770px;
+	top:350px;
 	width: 309px;
 	height: 283px;
 }
 
-#adc1Nodo1
-{
-	font-family: 'Helvetica';
-	font-size: 10pt;
-	position:absolute;
-	left:800px;
-	top:175px;
-	width: 309px;
-	height: 283px;
-}
-
-#adc2Nodo1
-{
-	font-family: 'Helvetica';
-	font-size: 10pt;
-	position:absolute;
-	left:1000px;
-	top:175px;
-	width: 309px;
-	height: 283px;
 
 
-}
+
 
 h2 {
 	font-family:"Times New Roman";
@@ -237,6 +126,9 @@ h3 {
 	left:130px;
 	top:180px;
 }
+
+
+
 h4 {
 	font-family:"Times New Roman";
 	font-size: 15pt;
@@ -252,4 +144,55 @@ h5{
 	position:absolute;
 	left:130px;
 	top:580px;
+}
+
+h7 {
+	font-family:"Times New Roman";
+	font-size: 15pt;
+	text-align:center;
+	position:absolute;
+	left:600px;
+	top:350px;
+}
+
+h8 {
+	font-family:"Times New Roman";
+	font-size: 15pt;
+	text-align:center;
+	position:absolute;
+	left:200px;
+	top:250px;
+}
+
+h9 {
+	font-family:"Times New Roman";
+	font-size: 15pt;
+	text-align:center;
+	position:absolute;
+	left:650px;
+	top:250px;
+}
+
+#adc1Nodo1
+{
+	font-family: 'Helvetica';
+	font-size: 25pt;
+	position:absolute;
+	left:450px;
+	top:240px;
+	width: 309px;
+	height: 283px;
+}
+
+#adc2Nodo1
+{
+	font-family: 'Helvetica';
+	font-size: 25pt;
+	position:absolute;
+	left:900px;
+	top:240px;
+	width: 309px;
+	height: 283px;
+
+
 }
